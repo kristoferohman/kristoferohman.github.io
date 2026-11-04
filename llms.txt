@@ -4,8 +4,8 @@
 
 ## About
 
-- Now: CTO, Apohem (Swedish online pharmacy, ~1bn SEK, Axel Johnson group)
-- Before: adidas, Klarna (reliability); co-founder through to exit; mentor to four startups
+- Now: CTO, Apohem (Swedish online pharmacy, ~1bn SEK, Axel Johnson group); taking it from AI First to AI Native, scaling through automation, not headcount
+- Before: CIO, head of tech, operations and engineering, in high-growth and traditional companies; adidas, Klarna (reliability); co-founder through to exit; mentor to four startups
 - Focus: applied AI, AI governance, cybersecurity and NIS2, digital transformation in regulated businesses
 - Leadership approach: psychological capital (hope, efficacy, resilience, optimism)
 
