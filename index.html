@@ -112,7 +112,7 @@
   ul.hero .word { color: var(--muted); }
   ul.hero .word b { color: var(--violet); font-weight: 700; }
 
-  a { color: var(--green); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a { color: var(--green); text-decoration: underline dotted; text-decoration-thickness: 0.5px; text-underline-offset: 3px; }
   a:hover { color: var(--text); }
   a.plain { color: var(--text); }
   a:focus-visible, button:focus-visible { outline: 2px dashed var(--green); outline-offset: 3px; border-radius: 2px; }
@@ -125,6 +125,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: underline dotted;
+    text-decoration-thickness: 0.5px;
     text-underline-offset: 3px;
   }
   button.reveal:hover { color: var(--text); }
