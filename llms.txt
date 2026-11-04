@@ -12,6 +12,7 @@
 ## Links
 
 - [Homepage](https://psycap.io/)
+- [Playbook: AI First → AI Native](https://psycap.io/playbook/): four questions a board should ask about AI, answered with Apohem as proof
 - [LinkedIn](https://www.linkedin.com/in/kristoferohman)
 - [Twitter](https://twitter.com/kristoferohman)
 - [GitHub](https://github.com/kristoferohman)
