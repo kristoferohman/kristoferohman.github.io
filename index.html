@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>psycap.io</title>
+<meta name="description" content="Kristofer Öhman. CTO taking a regulated business from AI First to AI Native. AI and cyber oversight for boards.">
+<meta property="og:title" content="Kristofer Öhman">
+<meta property="og:description" content="CTO, applied AI, AI and cyber for boards.">
+<meta property="og:url" content="https://psycap.io/">
+<meta property="og:type" content="profile">
+<link rel="canonical" href="https://psycap.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23000'/%3E%3Ctext x='4' y='23' font-family='monospace' font-size='19' font-weight='700' fill='%235AC3A5'%3Ek_%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kristofer Öhman",
+  "url": "https://psycap.io/",
+  "jobTitle": "Chief Technology Officer",
+  "worksFor": { "@type": "Organization", "name": "Apohem" },
+  "knowsAbout": ["Applied AI", "AI governance", "Cybersecurity", "NIS2", "Digital transformation", "Psychological capital"],
+  "sameAs": [
+    "https://www.linkedin.com/in/kristoferohman",
+    "https://github.com/kristoferohman"
+  ]
+}
+</script>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #F6F8FC;
+    --text: #121620;
+    --muted: #555E70;
+    --blue: #2151B5;
+    --green: #11765B;
+    --violet: #6908C4;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #000000;
+      --text: #DCE1EA;
+      --muted: #8C95A8;
+      --blue: #6E95EA;
+      --green: #5AC3A5;
+      --violet: #A97AF9;
+    }
+  }
+
+  *, *::before, *::after { box-sizing: inherit; margin: 0; padding: 0; }
+
+  html { background: var(--bg); height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+  }
+  ::selection { background: var(--green); color: var(--bg); }
+
+  main {
+    width: 100%;
+    max-width: calc(88ch + 2 * clamp(1.5rem, 8vw, 7rem));
+    padding: clamp(2.5rem, 8vh, 5rem) clamp(1.5rem, 8vw, 7rem);
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  .cursor { color: var(--green); animation: blink 1.1s step-end infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  .tagline { color: var(--muted); margin-top: 0.35rem; }
+  .tagline span { color: var(--text); }
+
+  dl.card {
+    display: grid;
+    grid-template-columns: 12ch 1fr;
+    column-gap: 1ch;
+    row-gap: 0.9rem;
+    margin-top: 2.75rem;
+  }
+  dl.card > dt { color: var(--blue); }
+  dl.card > dd { max-width: 72ch; }
+  .gap { margin-top: 1.1rem; }
+
+  ul.hero {
+    list-style: none;
+    margin-top: 0.7rem;
+    padding-left: 1.5ch;
+    border-left: 2px solid var(--violet);
+    display: grid;
+    grid-template-columns: 11ch 1fr;
+    column-gap: 1ch;
+    row-gap: 0.3rem;
+  }
+  ul.hero li { display: contents; }
+  ul.hero .word { color: var(--muted); }
+  ul.hero .word b { color: var(--violet); font-weight: 700; }
+
+  a { color: var(--green); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { color: var(--text); }
+  a:focus-visible, button:focus-visible { outline: 2px dashed var(--green); outline-offset: 3px; border-radius: 2px; }
+
+  button.reveal {
+    font: inherit;
+    color: var(--green);
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+  }
+  button.reveal:hover { color: var(--text); }
+
+  footer { color: var(--muted); margin-top: 3.5rem; }
+
+  @media (max-width: 560px) {
+    body { font-size: 12px; }
+    dl.card { grid-template-columns: 1fr; row-gap: 0.15rem; }
+    dl.card > dd { margin-bottom: 0.9rem; }
+    dl.card > dt.gap { margin-top: 0.6rem; }
+    dl.card > dd.gap { margin-top: 0; }
+    ul.hero { grid-template-columns: 1fr; row-gap: 0; }
+    ul.hero .desc { margin-bottom: 0.45rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cursor { animation: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>kristofer öhman<span class="cursor" aria-hidden="true">_</span></h1>
+    <p class="tagline">cto / applied ai / ai &amp; cyber for boards</p>
+  </header>
+
+  <dl class="card">
+    <dt>board lens</dt>
+    <dd>AI and cyber oversight for regulated, consumer-facing businesses. The questions a board should ask, from someone who answers them every day.</dd>
+
+    <dt>now</dt>
+    <dd>CTO at Apohem, a Swedish online pharmacy (~1bn SEK, Axel Johnson group). Taking it from AI First to AI Native, with compliance built in.</dd>
+
+    <dt>before</dt>
+    <dd>adidas, Klarna.<br>Co-founder through to exit. Mentor to four startups.</dd>
+
+    <dt class="gap">psycap</dt>
+    <dd class="gap">
+      How I lead change. Technology is the easy part; transformation runs on people’s psychological capital.
+      <ul class="hero">
+        <li><span class="word"><b>H</b>ope</span><span class="desc">People who see a future in the change, not a threat.</span></li>
+        <li><span class="word"><b>E</b>fficacy</span><span class="desc">Belief that you can, earned in small wins with new tools.</span></li>
+        <li><span class="word"><b>R</b>esilience</span><span class="desc">Bouncing back, in people as much as in systems.</span></li>
+        <li><span class="word"><b>O</b>ptimism</span><span class="desc">Realistic, not naive: expect success, name the risks.</span></li>
+      </ul>
+    </dd>
+
+    <dt class="gap">open to</dt>
+    <dd class="gap">Board assignments and advisory roles.</dd>
+
+    <dt>profile</dt>
+    <dd><a href="https://www.linkedin.com/in/kristoferohman" rel="me">linkedin</a></dd>
+
+    <dt>interests</dt>
+    <dd>neuroscience, surfing, training</dd>
+
+    <dt>contact</dt>
+    <dd><span id="email"><button class="reveal" type="button" id="reveal">show email</button></span>, <a href="https://github.com/kristoferohman" rel="me">github</a></dd>
+  </dl>
+
+  <footer>this page: no cookies, no trackers, one file.</footer>
+</main>
+
+<script>
+  document.getElementById('reveal').addEventListener('click', function () {
+    var a = document.createElement('a');
+    var addr = ['kristoferohman', 'psycap.io'].join('@');
+    a.href = 'mailto:' + addr;
+    a.textContent = addr;
+    var slot = document.getElementById('email');
+    slot.replaceChildren(a);
+    a.focus();
+  });
+</script>
+</body>
+</html>
